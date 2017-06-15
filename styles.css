@@ -9,8 +9,9 @@ footer {
 
 .download-button {
   height: 75px;
-  width: 25%;
+  width: 75%;
   margin-top: 20px;
+  margin-bottom: 30px;
   font-size: 18px;
 }
 
@@ -36,16 +37,73 @@ footer {
   top: 20%;
 }
 
-.compliance-countdown p {
-  font-size: 52px;
+.compliance-countdown {
+  font-size: 32px;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.75);
 }
 
 .sos-video {
+  display: block;
+  margin: 0 auto;
   width: 100%;
 }
 
 .sos-video iframe {
-  display: block;
-  margin: 0 auto;
-  width: 50%;
+  width: 100%;
+}
+
+/* Extra small devices (phones, less than 768px) are the default */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .download-button {
+    height: 75px;
+    width: 60%;
+    font-size: 24px;
+  }
+
+  .compliance-countdown {
+    width: 75%;
+    font-size: 42px;
+  }
+
+  .sos-video {
+    width: 75%;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .download-button {
+    height: 75px;
+    width: 50%;
+    font-size: 24px;
+  }
+
+  .compliance-countdown {
+    width: 75%;
+    margin-bottom: 50px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .download-button {
+    height: 75px;
+    width: 40%;
+    font-size: 24px;
+  }
+
+  .compliance-countdown {
+    width: 60%;
+    margin-bottom: 60px;
+  }
+
+  .sos-video {
+    width: 60%;
+  }
 }
