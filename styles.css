@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis|Oswald');
 
 body {
-  background-color: #09326F;
-  color: #f0f0f0;
+  background-color: #f0f0f0;
+  color: #09326F;
   font-family: "Dosis", serif;
 }
 
@@ -18,11 +18,21 @@ footer {
   margin-top: 50px;
 }
 
+.flexcontainer-right {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-justify-content: flex-end;
+   justify-content: flex-end;
+}
+
 .download-button {
   height: 75px;
   width: 75%;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 20px;
   font-size: 24px;
 }
 
@@ -30,6 +40,7 @@ footer {
   width: 100%;
   max-width: 2000px;
   position: relative;
+  background-color: #09326F;
 }
 
 .dfars-banner .static {
@@ -51,8 +62,8 @@ footer {
 .compliance-countdown {
   font-size: 32px;
   padding: 5px 0px;
-  margin-top: 5px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 10px;
   border-radius: 25px;
   box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.75);
 }
