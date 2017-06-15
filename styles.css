@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto Slab|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Oswald');
 
 body {
   background-color: #09326F;
   color: #f0f0f0;
-  font-family: "Roboto Slab", serif;
+  font-family: "Dosis", serif;
 }
 
 h1, h2, h3, h4, h5, h6, button {
   font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-size: 18px;
 }
 
 footer {
@@ -46,11 +50,15 @@ footer {
 
 .compliance-countdown {
   font-size: 32px;
-  padding-top: 5px;
+  padding: 5px 0px;
   margin-top: 5px;
   margin-bottom: 30px;
   border-radius: 25px;
   box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.75);
+}
+
+#countdown {
+  font-size: 115%;
 }
 
 .sos-video {
