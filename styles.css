@@ -1,0 +1,26 @@
+body {
+  background-color: #09326F;
+  color: #f0f0f0;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.dfars-banner {
+  max-width: 800px;
+}
+
+.compliance-countdown p {
+  font-size: 52px;
+}
+
+.sos-video {
+  width: 100%;
+}
+
+.sos-video iframe {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
