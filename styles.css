@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Maven Pro');
 
 body {
-  background-color: #f0f0f0;
+  background-color: #fff;
   color: #09326F;
   font-family: "Maven Pro", serif;
 }
@@ -27,18 +27,8 @@ footer {
   margin-top: 50px;
 }
 
-.flexcontainer-right {
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-justify-content: flex-end;
-   justify-content: flex-end;
-}
-
 .dfars-banner {
   width: 100%;
-  max-width: 2000px;
   position: relative;
 }
 
@@ -67,10 +57,19 @@ footer {
 }
 
 .compliance-countdown {
+  position: absolute;
   font-size: 32px;
-  padding: 5px 0px;
-  border-radius: 25px;
-  box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.75);
+  top: 50vw;
+  left: 32vw;
+  z-index: 0;
+}
+
+.compliance-countdown-label {
+  position: absolute;
+  font-size: 32px;
+  top: 51.5vw;
+  left: 35vw;
+  z-index: 1;
 }
 
 #countdown {
@@ -115,24 +114,15 @@ footer {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .compliance-countdown {
-    width: 75%;
-    font-size: 42px;
-  }
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .compliance-countdown {
-    width: 75%;
-    margin-bottom: 50px;
-  }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .compliance-countdown {
-    width: 60%;
-    margin-bottom: 60px;
-  }
+
 }
