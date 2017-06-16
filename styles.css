@@ -36,20 +36,10 @@ footer {
    justify-content: flex-end;
 }
 
-.download-button {
-  height: 75px;
-  width: 75%;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  margin-right: 20px;
-  font-size: 24px;
-}
-
 .dfars-banner {
   width: 100%;
   max-width: 2000px;
   position: relative;
-  background-color: #09326F;
 }
 
 .dfars-banner .static {
@@ -65,13 +55,20 @@ footer {
   z-index: 1;
   top: 0;
   left: 10.8%;
-  top: 20%;
+  top: 15.5%;
+}
+
+.download-button {
+  position: relative;
+  left: 75.5%;
+  top: -8.5vw;
+  cursor: pointer;
+  width: 23vw;
 }
 
 .compliance-countdown {
   font-size: 32px;
   padding: 5px 0px;
-  margin: 50px 0px;
   border-radius: 25px;
   box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.75);
 }
@@ -118,12 +115,6 @@ footer {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .download-button {
-    height: 75px;
-    width: 60%;
-    font-size: 32px;
-  }
-
   .compliance-countdown {
     width: 75%;
     font-size: 42px;
@@ -132,12 +123,6 @@ footer {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .download-button {
-    height: 75px;
-    width: 50%;
-    font-size: 36px;
-  }
-
   .compliance-countdown {
     width: 75%;
     margin-bottom: 50px;
@@ -146,12 +131,6 @@ footer {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .download-button {
-    height: 75px;
-    width: 40%;
-    font-size: 40px;
-  }
-
   .compliance-countdown {
     width: 60%;
     margin-bottom: 60px;
